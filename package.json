@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "rm -rf dist && webpack"
   },
   "keywords": [],
   "author": "",

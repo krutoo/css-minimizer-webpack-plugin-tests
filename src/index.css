@@ -3,5 +3,5 @@ html {
 }
 
 body {
-  transform: translate3d(-50%, -50%, 0) scale(calc(1 / (10 / var(--dot-size))));
+  transform: scale(calc(1 / (10 / var(--dot-size))));
 }
