@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "rm -rf dist && webpack"
+    "test:plugin": "rm -rf dist && webpack",
+    "test:cssnano": "rm -rf dist && mkdir dist && postcss src/index.css > dist/output.css"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +13,10 @@
   "devDependencies": {
     "css-loader": "^6.5.1",
     "css-minimizer-webpack-plugin": "^3.1.4",
+    "cssnano": "^5.0.11",
     "mini-css-extract-plugin": "^2.4.5",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.2",
     "webpack": "^5.64.1",
     "webpack-cli": "^4.9.1"
   }
